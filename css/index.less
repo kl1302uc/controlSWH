@@ -1,16 +1,90 @@
-*{
-    padding:0;
-    margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.lianjiguan{
-  width:20vw;
+
+html,
+body {
+  height: 100%;
 }
-.rebeng9{
-  width:40vw;
+
+.wrap {
+  height: 100%;
+  border: solid 2px red;
+  box-sizing: border-box;
+
+  &>* {
+    position: absolute;
+
+  }
 }
-.shuixiang{
-  
+
+.lianjiguan {
+  width: 20vw;
 }
-.shuixiangkuang{
-  width:20vw;
+
+.rebeng9 {
+  top: 25vw;
+  right: 10vw;
+  width: 10vw;
+}
+.fengshan{
+  border:solid 0.3vw;
+  border-radius:50%;
+  font-size:0;
+  >*{
+    width:5vw;
+
+  }
+}
+.fengshanBlue{
+  top:20vw;
+  .fengshan;
+  >.fengshansiye12 {
+
+  }
+}
+.fengshanRed {
+  top:30vw;
+  .fengshan;
+  >.fengshansiye2 {
+
+  }
+}
+
+.shuixiang {
+  top: 22vw;
+  right: 35vw;
+
+  >.shuixiangkuang {
+    width: 12vw;
+    position: absolute;
+    bottom: 0;
+  }
+
+  >.shuixiangdi {
+    width: 12vw;
+
+  }
+
+  >.shuiweiWrap {
+    position: absolute;
+    width: 80%;
+    left: 2%;
+    right: 0;
+    margin: auto;
+    height: 78%;
+    z-index: 99;
+    bottom: 7%;
+    border-radius: 0 0 7% 7%;
+    overflow: hidden;
+
+    >.shuiwei {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 10%;
+      background-color: blue;
+    }
+  }
 }

@@ -122,7 +122,9 @@ class Pipe extends HTMLElement {
         break;
       case "water":
        // this.inner.style.backgroundImage=`repeating-linear-gradient(to right,white 0%,white 1%,${newvalue} 1%,${newvalue} 2%)`;
-        this.inner.style.backgroundImage=`repeating-linear-gradient(to right,white 0,white ${this.getAttribute('height')},${newvalue} ${this.getAttribute('height')},${newvalue} ${2*parseInt(this.getAttribute('height'))+this.getAttribute('height').replace(parseInt(this.getAttribute('height'))+'','')})`;
+        let intHeight=parseFloat(this.getAttribute('height'));
+        let heightUnit=this.getAttribute('height').replace(parseFloat(this.getAttribute('height'))+'','');
+        this.inner.style.backgroundImage=`repeating-linear-gradient(to right,white 0,white ${4*intHeight+heightUnit},${newvalue} ${4*intHeight+heightUnit},${newvalue} ${8*intHeight+heightUnit})`;
         break;
       case "speed":
         this.inner.style.animationDuration=newvalue;
