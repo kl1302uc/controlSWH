@@ -1,3 +1,5 @@
 import '../components/pipe.js';
-const pipe=document.querySelector('swh-pipe');
-console.log(pipe.style.top='10px');
+const pipe=document.querySelectorAll('swh-pipe');
+pipe.forEach((el,index)=>{
+  
+})

@@ -5,6 +5,10 @@ class Pipe extends HTMLElement {
     const template = document.createElement("template");
     template.innerHTML = /*html*/ `
         <style>
+             
+             :host{
+               
+             }
             .wrap{
                 border:solid 1px;
                 overflow:hidden;
@@ -35,7 +39,7 @@ class Pipe extends HTMLElement {
     this._shadowRoot.appendChild(template.content.cloneNode(true));
     this.wrap = this._shadowRoot.querySelector(".wrap");
     this.inner=this.wrap.querySelector('.inner');
-   this.style.display='block';
+   
   }
   connectedCallback(el) {
     
