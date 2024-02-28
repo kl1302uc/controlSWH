@@ -7,13 +7,18 @@ body {
   height: 100%;
 }
 .wrap {
-  height: 100%;
+  height: 50vw;
   border: solid 2px red;
   box-sizing: border-box;
 }
 .wrap > * {
   position: absolute;
 }
+.wrap > p {
+  z-index: 100;
+  font-size: 1.7vw;
+}
+/* 太阳能连接管 */
 .lianjiguan {
   width: 10vw;
   z-index: 99;
@@ -34,30 +39,24 @@ body {
   top: 35vw;
   left: 20vw;
 }
-swh-pipe:nth-child(1) {
-  top: 15vw;
-}
-swh-pipe:nth-child(2) {
-  top: 45vw;
-  left: 65vw;
-}
-swh-pipe {
-  top: 50vw;
-}
+/* 空气能加热泵 */
 .rebeng9 {
   top: 30vw;
   right: 10vw;
-  width: 9vw;
+  width: 10vw;
+  z-index: 99;
 }
+/* 所有风扇公共样式 */
 .fengshan {
   border: solid 0.3vw;
+  background-color: white;
   border-radius: 50%;
   font-size: 0;
   z-index: 99;
 }
 .fengshan > * {
   width: 3vw;
-  animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite paused;
 }
 @keyframes rotate {
   0% {
@@ -67,39 +66,44 @@ swh-pipe {
     transform: rotateZ(360deg);
   }
 }
+/*水泵蓝色*/
 .fengshanBlue {
   border: solid 0.3vw;
+  background-color: white;
   border-radius: 50%;
   font-size: 0;
   z-index: 99;
 }
 .fengshanBlue > * {
   width: 3vw;
-  animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite paused;
 }
+/* 水泵红色 */
 .fengshanRed {
   top: 30vw;
   border: solid 0.3vw;
+  background-color: white;
   border-radius: 50%;
   font-size: 0;
   z-index: 99;
 }
 .fengshanRed > * {
   width: 3vw;
-  animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite paused;
 }
+/* 水箱 */
 .shuixiang {
-  top: 22vw;
+  top: 20vw;
   right: 30vw;
   z-index: 99;
 }
 .shuixiang > .shuixiangkuang {
-  width: 15vw;
+  width: 20vw;
   position: absolute;
   bottom: 0;
 }
 .shuixiang > .shuixiangdi {
-  width: 15vw;
+  width: 20vw;
 }
 .shuixiang > .shuiweiWrap {
   position: absolute;
@@ -118,11 +122,13 @@ swh-pipe {
   bottom: 0;
   width: 100%;
   height: 10%;
-  background-color: blue;
+  background-color: skyblue;
 }
 .shuixiang > .detail {
   position: absolute;
-  top: 20%;
-  left: 10%;
-  font-size: 1.3vw;
+  top: 30%;
+  left: 15%;
+  font-size: 2vw;
+  z-index: 100;
+  color: black;
 }
