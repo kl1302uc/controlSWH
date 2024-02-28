@@ -54,12 +54,13 @@ function rebengkaiguan(valueBool) {
 const dataFetcher = new DataFetcher('http://center.zhuineng.com:50020/api-t/translate?type=0&uid=329c7b6dee7c46f095a4fb7d93c79089&pid=bb85a5219375426fb805ebacef87d65b', 5000); // 每 5 秒获取一次数据
 dataFetcher.startFetching((data) => {
     time.innerText = data.DNT;//时间显示
+    
     /*设置太阳能管道及泵*/
     t1.innerText='T1='+data.T1+"℃";
     t2.innerText='T2='+data.T2+"℃";
     shangbukaiguan(data.P1S);
-    if (data.P1S == false && data.P2S == false) zhuguandao.start = "false";
-
+    //if (data.P1S == false && data.P2S == false) zhuguandao.start = "false";
+    zhuguandao.start=data.P1S || data.P2S//-------------------------------逻辑值赋值给文本有什么问题-------------
     t3.innerText='T1='+data.T3+"℃";
     t4.innerText='T2='+data.T4+"℃";
     xiabukaiguan(data.P2S);
