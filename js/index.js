@@ -1,5 +1,5 @@
 import '../components/pipe.js';
-import {dataFetcher } from './request.js';
+import {DataFetcher } from './request.js';
 const shangbu=document.querySelectorAll('.shangbu');
 const xiabu=document.querySelectorAll('.xiabu');
 const zhuguandao=document.querySelector(".zhuguandao");
