@@ -6,17 +6,16 @@ export class DataFetcher {
     this.interval = interval;
   }
 
-  fetchData() {
-    return fetch(this.url)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
+  async fetchData() {
+    try {
+      const response = await fetch(this.url);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Error:', error);
+    }
   }
 
   startFetching(callback) {
