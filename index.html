@@ -10,24 +10,60 @@
 <body>
     <div class="wrap">
       <img class="lianjiguan" src="./img/lianjiguan.png" alt="">
-      <div class="fengshanBlue">
-        <img src="./img/fengshansiye12.png" alt="" class="fengshansiye12">
-      </div>
+      <img class="lianjiguan" src="./img/lianjiguan.png" alt="">
+      <img class="lianjiguan" src="./img/lianjiguan.png" alt="">
+      <img class="lianjiguan" src="./img/lianjiguan.png" alt="">
+      
+      
       <div class="fengshanRed">
         <img src="./img/fengshansiye2.png" alt="" class="fengshansiye2">
       </div>
-      <img src="./img/rebeng9.png" alt="" class="rebeng9">
+      <div class="fengshanRed" style="top:10vw">
+        <img src="./img/fengshansiye2.png" alt="" class="fengshansiye2">
+      </div>
       <div class="shuixiang">
         <img src="./img/shuixiangkuang.png" alt="" class="shuixiangkuang">
         <img src="./img/shuixiangdi.png" alt="" class="shuixiangdi">
         <div class="shuiweiWrap">
           <div class="shuiwei"></div>
         </div>
+        <p class="detail"></p>
       </div>
+
       
-      <swh-pipe width="50vw" direction="left" start="true" height="0.5vw" water="red" speed="15s"></swh-pipe>
+      <!-- 主循环管道 -->
+      <swh-pipe class="zhuguandao" width="12vw" style="top:39.9vw;left:46.6vw" direction="left" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      
+      <!-- 上部循环 -->
+      <div class="fengshanBlue" style="top:23.6vw;left:35.4vw;">
+        <img class="shangbubeng" src="./img/fengshansiye12.png" alt="" class="fengshansiye12">
+      </div>
+      <swh-pipe class="shangbu" width="43vw" style="top:5vw;left:15.2vw;" direction="right" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="12vw" style="top:10.7vw;left:8.9vw;" direction="top" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="11vw" style="top:10.8vw;left:19.4vw;" direction="top" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="20vw" style="top:14.7vw;left:48.3vw;" direction="bottom" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="15vw" style="top:32.4vw;left:39.4vw" direction="top" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="20vw" style="top:25vw;left:15.2vw" direction="left" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="8vw" style="top:25vw;left:38.9vw" direction="left" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="8vw" style="top:20.6vw;left:20.9vw" direction="top" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="shangbu" width="8vw" style="top:21.2vw;left:10.9vw" direction="top" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      
+      <!-- 下部循环 -->
+      <div class="fengshanBlue" style="top:43.6vw;left:35.4vw;">
+        <img class="xiabubeng" src="./img/fengshansiye12.png" alt="" class="fengshansiye12">
+      </div>
+      <swh-pipe class="xiabu" width="43vw" style="top:28vw;left:15.2vw;" direction="right" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="12vw" style="top:33.7vw;left:8.9vw;" direction="top" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="11vw" style="top:33.8vw;left:19.4vw;" direction="top" start="true" height="0.5vw" water="red" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="5vw" style="top:42.7vw;left:44.4vw" direction="bottom" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="8vw" style="top:45vw;left:38.9vw" direction="left" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="20vw" style="top:45vw;left:15.2vw" direction="left" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="8vw" style="top:40.6vw;left:20.9vw" direction="top" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <swh-pipe class="xiabu" width="8vw" style="top:41.2vw;left:10.9vw" direction="top" start="true" height="0.5vw" water="blue" speed="35s"></swh-pipe>
+      <!-- 热泵循环 -->
+      <swh-pipe class="rebengPipe" style="left:70vw;top:30vw;" width="15vw" direction="left" start="true" height="0.5vw" water="blue" speed="15s"></swh-pipe>
       <swh-pipe class="rebengPipe" width="20vw" direction="left" start="true" height="0.5vw" water="red" speed="15s"></swh-pipe>
-      <swh-pipe class="rebengPipe" width="20vw" direction="left" start="true" height="0.5vw" water="red" speed="15s"></swh-pipe>
+      <img src="./img/rebeng9.png" alt="" class="rebeng9">
 
     </div>
     <script type="module" src="./js/index.js"></script>

@@ -15,50 +15,83 @@ body {
   position: absolute;
 }
 .lianjiguan {
-  width: 20vw;
+  width: 10vw;
+  z-index: 99;
 }
-.rebengPipe:nth-child(1) {
-  top: 40vw;
-  left: 65vw;
+.lianjiguan:nth-child(1) {
+  left: 10vw;
+  top: 15vw;
 }
-.rebengPipe:nth-child(2) {
+.lianjiguan:nth-child(2) {
+  top: 15vw;
+  left: 20vw;
+}
+.lianjiguan:nth-child(3) {
+  left: 10vw;
+  top: 35vw;
+}
+.lianjiguan:nth-child(4) {
+  top: 35vw;
+  left: 20vw;
+}
+swh-pipe:nth-child(1) {
+  top: 15vw;
+}
+swh-pipe:nth-child(2) {
   top: 45vw;
   left: 65vw;
+}
+swh-pipe {
+  top: 50vw;
 }
 .rebeng9 {
   top: 30vw;
   right: 10vw;
-  width: 8vw;
+  width: 9vw;
 }
 .fengshan {
   border: solid 0.3vw;
   border-radius: 50%;
   font-size: 0;
+  z-index: 99;
 }
 .fengshan > * {
-  width: 5vw;
+  width: 3vw;
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 .fengshanBlue {
-  top: 20vw;
   border: solid 0.3vw;
   border-radius: 50%;
   font-size: 0;
+  z-index: 99;
 }
 .fengshanBlue > * {
-  width: 5vw;
+  width: 3vw;
+  animation: rotate 1s linear infinite;
 }
 .fengshanRed {
   top: 30vw;
   border: solid 0.3vw;
   border-radius: 50%;
   font-size: 0;
+  z-index: 99;
 }
 .fengshanRed > * {
-  width: 5vw;
+  width: 3vw;
+  animation: rotate 1s linear infinite;
 }
 .shuixiang {
   top: 22vw;
-  right: 35vw;
+  right: 30vw;
+  z-index: 99;
 }
 .shuixiang > .shuixiangkuang {
   width: 15vw;
@@ -86,4 +119,10 @@ body {
   width: 100%;
   height: 10%;
   background-color: blue;
+}
+.shuixiang > .detail {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 1.3vw;
 }

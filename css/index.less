@@ -19,14 +19,31 @@ body {
 }
 
 .lianjiguan {
-  width: 20vw;
+  width: 10vw;
+  z-index:99;
+  &:nth-child(1){
+    left:10vw;
+    top:15vw;
+  }
+  &:nth-child(2){
+    top:15vw;
+    left:20vw;
+  }
+  &:nth-child(3){
+    left:10vw;
+    top:35vw;
+  }
+  &:nth-child(4){
+    top:35vw;
+    left:20vw;
+  }
 }
 
+
 swh-pipe{
-  top:27vw;
   &:nth-child(1){
     
-    top:20vw;
+    top:15vw;
   }
   &:nth-child(2){
     top:45vw;
@@ -39,18 +56,28 @@ swh-pipe{
 .rebeng9 {
   top: 30vw;
   right: 10vw;
-  width: 8vw;
+  width: 10vw;
+  z-index:99;
 }
 .fengshan{
   border:solid 0.3vw;
   border-radius:50%;
   font-size:0;
+  z-index:99;
   >*{
-    width:5vw;
+    width:3vw;
+    animation:rotate 1s linear infinite;
+  }
+}
+@keyframes rotate{
+  0% {
+    transform:rotateZ(0deg);
+  }
+  100%{
+    transform:rotateZ(360deg);
   }
 }
 .fengshanBlue{
-  top:20vw;
   .fengshan;
   >.fengshansiye12 {
 
@@ -66,7 +93,8 @@ swh-pipe{
 
 .shuixiang {
   top: 22vw;
-  right: 35vw;
+  right: 30vw;
+  z-index:99;
 
   >.shuixiangkuang {
     width: 15vw;
@@ -98,5 +126,14 @@ swh-pipe{
       height: 10%;
       background-color: blue;
     }
+  }
+  >.detail{
+    position:absolute;
+    top:30%;
+    left:10%;
+    font-size:1.3vw;
+    z-index:100;
+    color:white;
+    
   }
 }
