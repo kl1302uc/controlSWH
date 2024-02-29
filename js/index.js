@@ -61,7 +61,7 @@ function rebengkaiguan(valueBool) {
   rebengPipe[1].start = valueBool ? "true" : "false";
 }
 /*获取太阳能数据*/
-const dataFetcher = new DataFetcher('//center.zhuineng.com:50020/api-t/translate?type=0&uid=329c7b6dee7c46f095a4fb7d93c79089&pid=bb85a5219375426fb805ebacef87d65b', 5000); // 每 5 秒获取一次数据
+const dataFetcher = new DataFetcher('http://center.zhuineng.com:50020/api-t/translate?type=0&uid=329c7b6dee7c46f095a4fb7d93c79089&pid=bb85a5219375426fb805ebacef87d65b', 5000); // 每 5 秒获取一次数据
 dataFetcher.startFetching((data) => {
   time.innerText = data.DNT; //时间显示
   /*设置自来水进水*/
