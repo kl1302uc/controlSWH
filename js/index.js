@@ -65,8 +65,8 @@ const dataFetcher = new DataFetcher('http://center.zhuineng.com:50020/api-t/tran
 dataFetcher.startFetching((data) => {
   time.innerText = data.DNT; //时间显示
   /*设置自来水进水*/
-  e1.src=data.E1S?'../img/EL2.png':'../img/EH2.png';//设置上水阀颜色绿色为开启
-  banredai.src=data.H2S?'../img/banredailv3.png':'../img/banredaihong3.png'//设置伴热带
+  e1.src=data.E1S?'./img/EL2.png':'./img/EH2.png';//设置上水阀颜色绿色为开启
+  banredai.src=data.H2S?'./img/banredailv3.png':'./img/banredaihong3.png'//设置伴热带
   t6.innerText='T6='+ data.T6 + "℃";//设置自来水进水温度
   zilaishui[0].start=zilaishui[1].start=data.E1S;
   /*设置太阳能管道及泵*/
@@ -82,12 +82,12 @@ dataFetcher.startFetching((data) => {
   shuixiangDetail.innerText = `温度:${data.T0}℃
   水位:${data.W1}%`;
   shuiwei.style.height = data.W1 + '%';
-  dianjiare.src=data.H1S?'../img/dianjiarelv2.png':'../img/dianjiarehong2.png'
+  dianjiare.src=data.H1S?'./img/dianjiarelv2.png':'./img/dianjiarehong2.png'
   /* 设置空气能热泵及管道 */ //--------------------------------------------------------------------未发现是哪个参数------------------------
   rebengkaiguan(false);
   t7.innerText = 'T2=' + data.T7 + "℃";
   /* 设置用户热水泵及管道 */
   yonghukaiguan(false); //-----------------------------------------------------------------------------------------------------------
-  e2.src=data.E2S?"../img/EL2.png":"../img/EH2.png"
+  e2.src=data.E2S?"./img/EL2.png":"./img/EH2.png"
 
 });
