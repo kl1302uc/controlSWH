@@ -1,7 +1,13 @@
 import '../components/pipe.js';
 import { DataFetcher } from './request.js';
-const time = document.querySelector(".time"); //主管道
+
+const time = document.querySelector(".time"); //日期时间
 const zhuguandao = document.querySelector(".zhuguandao"); //主管道
+/*自来水管路*/
+const e1=document.querySelector('.e1');//自来水上水阀
+const banredai=document.querySelector('.banredai');//伴热带
+const t6=document.querySelector('.t6');//自来水进水水温
+const zilaishui=document.querySelectorAll('.zilaishui');
 /* 上太阳能管路 */
 const shangbu = document.querySelectorAll('.shangbu'); //上部所有管道
 const t1 = document.querySelector('.t1'); //上部温度
@@ -58,7 +64,11 @@ function rebengkaiguan(valueBool) {
 const dataFetcher = new DataFetcher('http://center.zhuineng.com:50020/api-t/translate?type=0&uid=329c7b6dee7c46f095a4fb7d93c79089&pid=bb85a5219375426fb805ebacef87d65b', 5000); // 每 5 秒获取一次数据
 dataFetcher.startFetching((data) => {
   time.innerText = data.DNT; //时间显示
-
+  /*设置自来水进水*/
+  e1.src=data.E1S?'../img/EL2.png':'../img/EH2.png';//设置上水阀颜色绿色为开启
+  banredai.src=data.H2S?'../img/banredailv3.png':'../img/banredaihong3.png'//设置伴热带
+  t6.innerText='T6='+ data.T6 + "℃";//设置自来水进水温度
+  zilaishui[0].start=zilaishui[1].start=data.E1S;
   /*设置太阳能管道及泵*/
   t1.innerText = 'T1=' + data.T1 + "℃";
   t2.innerText = 'T2=' + data.T2 + "℃";
