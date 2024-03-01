@@ -75,17 +75,17 @@ function getData(data){
   shangbukaiguan(data.P1S);
   //if (data.P1S == false && data.P2S == false) zhuguandao.start = "false";
   zhuguandao.start = data.P1S || data.P2S //-------------------------------逻辑值赋值给文本有什么问题-------------
-  t3.innerText = 'T1=' + data.T3 + "℃";
-  t4.innerText = 'T2=' + data.T4 + "℃";
+  t3.innerText = 'T3=' + data.T3 + "℃";
+  t4.innerText = 'T4=' + data.T4 + "℃";
   xiabukaiguan(data.P2S);
   /*设置水箱 */
-  shuixiangDetail.innerText = `温度:${data.T0}℃
-  水位:${data.W1}%`;
+  shuixiangDetail.innerText = `温度(T0):${data.T0}℃
+  水位(W1):${data.W1}%`;
   shuiwei.style.height = data.W1 + '%';
   dianjiare.src=data.H1S?'./img/dianjiarelv2.png':'./img/dianjiarehong2.png'
   /* 设置空气能热泵及管道 */ //--------------------------------------------------------------------未发现是哪个参数------------------------
   rebengkaiguan(false);
-  t7.innerText = 'T2=' + data.T7 + "℃";
+  t7.innerText = 'T7=' + data.T7 + "℃";
   /* 设置用户热水泵及管道 */
   yonghukaiguan(false); //-----------------------------------------------------------------------------------------------------------
   e2.src=data.E2S?"./img/EL2.png":"./img/EH2.png"

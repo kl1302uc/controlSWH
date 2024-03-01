@@ -42,7 +42,7 @@ export class DataFetcher {
 
 
 
-export class TimedAjaxRequest {
+/* export class TimedAjaxRequest {
   constructor(url, interval, callback) {
       this.url = url;
       this.interval = interval;
@@ -76,3 +76,4 @@ export class TimedAjaxRequest {
   }
 }
 
+ */
