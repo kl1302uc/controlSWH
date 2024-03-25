@@ -38,7 +38,6 @@ const e1s = document.querySelector('.e1s'); //用户防水阀1
 
 /* 用户循环泵开关 */
 function yonghukaiguan(E1S,E2S,P1S) {
-  console.log(E1S,E2S,P1S);
   e1s.src=E1S?"./img/EL2.png":"./img/EH2.png";
   e2s.src=E2S?"./img/EL2.png":"./img/EH2.png";
   yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
