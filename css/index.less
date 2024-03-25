@@ -8,16 +8,20 @@ body {
   height: 100%;
 }
 .wrap {
-  height:50vw;
+  height:60vw;
   border: solid 0.3vw deeppink;
   box-sizing: border-box;
   position:relative;
   &>* {
     position: absolute;
+    margin-top:1vw;
   }
   >p{
     z-index:100;
     font-size:1.7vw;
+    &.time{
+      margin-top:0;
+    }
   }
 }
 /* 太阳能连接管 */

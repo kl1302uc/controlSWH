@@ -7,17 +7,21 @@ body {
   height: 100%;
 }
 .wrap {
-  height: 50vw;
+  height: 60vw;
   border: solid 0.3vw deeppink;
   box-sizing: border-box;
   position: relative;
 }
 .wrap > * {
   position: absolute;
+  margin-top: 1vw;
 }
 .wrap > p {
   z-index: 100;
   font-size: 1.7vw;
+}
+.wrap > p.time {
+  margin-top: 0;
 }
 /* 太阳能连接管 */
 .lianjiguan {
