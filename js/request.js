@@ -14,7 +14,7 @@ export class DataFetcher {
       }
       return await response.json();
     } catch (error) {
-      console.error('Error:', error);
+      console.warn('Error:', error);
     }
   }
 
