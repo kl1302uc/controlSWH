@@ -40,7 +40,9 @@ const e1s = document.querySelector('.e1s'); //用户防水阀1
 function yonghukaiguan(E1S,E2S,P1S) {
   e1s.src=E1S?"./img/EL2.png":"./img/EH2.png";
   e2s.src=E2S?"./img/EL2.png":"./img/EH2.png";
-  yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
+ // yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
+yonghubengp1s.src=P1S?"./img/EL2.png":"./img/EH2.png";
+shangbu[3].start=P1S//----------------------------------执行用户侧进水箱阀门同步
 
   yonghuPipe[0].start=yonghuPipe[1].start=E2S;
   yonghuPipe[2].start=E1S;
@@ -51,6 +53,7 @@ function yonghukaiguan(E1S,E2S,P1S) {
 function shangbukaiguan(valueBool) {
   shangbubeng.style.animationPlayState = valueBool ? "running" : "paused";
   shangbu.forEach((el, index) => {
+    if(index==3) return;//----------------------------------这根执行用户侧进水箱阀门同步不参与这次
     el.start = valueBool ? "true" : "false";
   });
 }
