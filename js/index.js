@@ -1,4 +1,5 @@
 import '../components/pipe.js';
+import '../components/bend.js';
 import { DataFetcher } from './request.js';
 
 const time = document.querySelector(".time"); //日期时间
