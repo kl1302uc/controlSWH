@@ -43,11 +43,11 @@ function yonghukaiguan(E1S,E2S,P1S) {
   e2s.src=E2S?"./img/EL2.png":"./img/EH2.png";
  // yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
 yonghubengp1s.src=P1S?"./img/EL2.png":"./img/EH2.png";
-shangbu[3].start=P1S//----------------------------------执行用户侧进水箱阀门同步
+shangbu[3].start=P1S && shangbu[0].start//----------------------------------执行用户侧进水箱阀门同步
 
-  yonghuPipe[0].start=yonghuPipe[1].start=E2S;
+  yonghuPipe[0].start=yonghuPipe[1].start=E2S && shangbu[0].start;//----------判断上太阳能管道是否开起
   yonghuPipe[2].start=E1S;
-  yonghuPipe[3].start=E1S || E2S;
+  yonghuPipe[3].start=E1S || yonghuPipe[1].start;
 }
 
 /*控制上循环泵开关*/
