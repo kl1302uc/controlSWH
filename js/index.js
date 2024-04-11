@@ -39,10 +39,10 @@ const e1s = document.querySelector('.e1s'); //用户防水阀1
 
 /* 用户循环泵开关 */
 function yonghukaiguan(E1S,E2S,P1S) {
-  e1s.src=E1S?"./img/EL2.png":"./img/EH2.png";
-  e2s.src=E2S?"./img/EL2.png":"./img/EH2.png";
+  e1s.src=E1S?"./img/EL2.svg":"./img/EH2.svg";
+  e2s.src=E2S?"./img/EL2.svg":"./img/EH2.svg";
  // yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
-yonghubengp1s.src=P1S?"./img/EL2.png":"./img/EH2.png";
+yonghubengp1s.src=P1S?"./img/EL2.svg":"./img/EH2.svg";
 shangbu[3].start=P1S && shangbu[0].start//----------------------------------执行用户侧进水箱阀门同步
 
   yonghuPipe[0].start=yonghuPipe[1].start=E2S && shangbu[0].start;//----------判断上太阳能管道是否开起
@@ -76,8 +76,8 @@ function rebengkaiguan(valueBool) {
 function getData(data) {
   time.innerText = data.DNT; //时间显示
   /*设置自来水进水*/
-  e1.src = data.E1S ? './img/EL2.png' : './img/EH2.png';//设置上水阀颜色绿色为开启
-  banredai.src = data.H2S ? './img/banredailv3.png' : './img/banredaihong3.png'//设置伴热带
+  e1.src = data.E1S ? './img/EL2.svg' : './img/EH2.svg';//设置上水阀颜色绿色为开启
+  banredai.src = data.H2S ? './img/banredailv3.svg' : './img/banredaihong3.svg'//设置伴热带
   t6.innerText = 'T6=' + data.T6 + "℃";//设置自来水进水温度
   zilaishui[0].start = zilaishui[1].start = data.E1S;
   /*设置太阳能管道及泵*/
@@ -93,13 +93,13 @@ function getData(data) {
   shuixiangDetail.innerText = `温度(T0):${data.T0}℃
   水位(W1):${data.W1}%`;
   shuiwei.style.height = data.W1 + '%';
-  dianjiare.src = data.H1S ? './img/dianjiarelv2.png' : './img/dianjiarehong2.png'
+  dianjiare.src = data.H1S ? './img/dianjiarelv2.svg' : './img/dianjiarehong2.svg'
   /* 设置空气能热泵及管道 */ //--------------------------------------------------------------------未发现是哪个参数------------------------
   rebengkaiguan(false);
   t7.innerText = 'T7=' + data.T7 + "℃";
   /* 设置用户热水泵及管道 */
  //-----------------------------------------------------------------------------------------------------------
-  e2.src = data.E2S ? "./img/EL2.png" : "./img/EH2.png"
+  e2.src = data.E2S ? "./img/EL2.svg" : "./img/EH2.svg"
 }
 /* 数据获取回调2 */
 function getBackData(data){

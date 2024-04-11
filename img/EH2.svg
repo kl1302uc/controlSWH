@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.13 125.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_22);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_21-2);
+      }
+
+      .cls-3 {
+        fill: #666;
+        opacity: .52;
+      }
+
+      .cls-4 {
+        fill: url(#_未命名的渐变_22-2);
+      }
+
+      .cls-5 {
+        fill: url(#_未命名的渐变_21);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_21" data-name="未命名的渐变 21" x1="39.06" y1="96.75" x2="78.13" y2="96.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".42" stop-color="#ffb5b5"/>
+      <stop offset=".59" stop-color="#fff"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_21-2" data-name="未命名的渐变 21" x1="-25.28" y1="96.75" x2="13.79" y2="96.75" gradientTransform="translate(13.79) rotate(-180) scale(1 -1)" xlink:href="#_未命名的渐变_21"/>
+    <linearGradient id="_未命名的渐变_22" data-name="未命名的渐变 22" x1="31.06" y1="74.15" x2="47.06" y2="74.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".36" stop-color="#ffb5b5"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_22-2" data-name="未命名的渐变 22" x1="1.28" y1="25.78" x2="76.85" y2="25.78" xlink:href="#_未命名的渐变_22"/>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <polygon class="cls-5" points="39.06 96.75 78.13 125.96 78.13 67.53 39.06 96.75"/>
+    <polygon class="cls-2" points="39.06 96.75 0 125.96 0 67.53 39.06 96.75"/>
+    <polygon class="cls-1" points="39.06 96.74 31.06 90.73 31.06 51.55 47.06 51.55 47.06 90.73 39.06 96.74"/>
+    <polygon class="cls-4" points="76.85 51.55 1.28 51.55 1.28 25.78 24.77 0 53.53 0 76.85 25.78 76.85 51.55"/>
+    <rect class="cls-3" x="31.06" y="51.55" width="16" height=".85"/>
+  </g>
+</svg>

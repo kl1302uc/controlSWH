@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 137.11 173.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_124);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #0071bc;
+      }
+
+      .cls-4 {
+        fill: url(#_未命名的渐变_53);
+      }
+
+      .cls-9 {
+        stroke: red;
+        stroke-width: .5px;
+      }
+
+      .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: url(#_未命名的渐变_45);
+      }
+
+      .cls-10 {
+        stroke: #4d4d4d;
+      }
+
+      .cls-11 {
+        fill: #5b96be;
+        stroke: #518fba;
+      }
+
+      .cls-6 {
+        fill: url(#_未命名的渐变_157);
+      }
+
+      .cls-7 {
+        fill: url(#_未命名的渐变_157-2);
+      }
+
+      .cls-12 {
+        fill: #fef1e2;
+        stroke: #eacd99;
+      }
+
+      .cls-8 {
+        fill: #9bb9bf;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_124" data-name="未命名的渐变 124" x1="0" y1="100.28" x2="137.11" y2="100.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#91a2a9"/>
+      <stop offset=".03" stop-color="#a3b6be"/>
+      <stop offset=".07" stop-color="#b4c8d0"/>
+      <stop offset=".98" stop-color="#b4c9d1"/>
+      <stop offset="1" stop-color="#9babb2"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_45" data-name="未命名的渐变 45" x1="18.89" y1="16.49" x2="119.32" y2="16.49" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#91a5ad"/>
+      <stop offset=".19" stop-color="#94a8af"/>
+      <stop offset=".34" stop-color="#a0b1b7"/>
+      <stop offset=".49" stop-color="#b4c0c5"/>
+      <stop offset=".65" stop-color="#d0d5d7"/>
+      <stop offset=".74" stop-color="#e6e6e6"/>
+      <stop offset=".92" stop-color="#bdccd4"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_53" data-name="未命名的渐变 53" x1="15.91" y1="2.99" x2="121.4" y2="2.99" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#333"/>
+      <stop offset=".14" stop-color="#363636"/>
+      <stop offset=".24" stop-color="#424242"/>
+      <stop offset=".35" stop-color="#575757"/>
+      <stop offset=".46" stop-color="#737373"/>
+      <stop offset=".56" stop-color="#979797"/>
+      <stop offset=".67" stop-color="#c3c3c3"/>
+      <stop offset=".74" stop-color="#e6e6e6"/>
+      <stop offset=".92" stop-color="#4d4d4d"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_157" data-name="未命名的渐变 157" x1="27.09" y1="137.6" x2="27.09" y2="145.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bdccd4"/>
+      <stop offset=".12" stop-color="#93b6ca"/>
+      <stop offset=".24" stop-color="#6da2c2"/>
+      <stop offset=".37" stop-color="#4e92bb"/>
+      <stop offset=".51" stop-color="#3585b5"/>
+      <stop offset=".66" stop-color="#247db2"/>
+      <stop offset=".81" stop-color="#1a77af"/>
+      <stop offset="1" stop-color="#1776af"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_157-2" data-name="未命名的渐变 157" y1="106.96" y2="114.79" xlink:href="#_未命名的渐变_157"/>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <rect class="cls-1" y="27.38" width="137.11" height="145.79"/>
+    <rect class="cls-8" y="27" width="137.11" height="8.43"/>
+    <rect class="cls-8" y="165.13" width="137.11" height="7.66"/>
+    <circle class="cls-3" cx="51.26" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="41.43" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="49.51" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="57.6" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="65.68" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="73.77" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="81.85" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="89.94" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="98.02" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="106.11" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="114.19" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="122.28" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="130.36" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="138.45" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="146.53" r="3.45"/>
+    <circle class="cls-3" cx="51.26" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="61.28" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="71.3" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="81.32" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="91.34" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="101.36" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="111.38" cy="154.62" r="3.45"/>
+    <circle class="cls-3" cx="121.4" cy="154.62" r="3.45"/>
+    <line class="cls-10" x1="130.21" y1="35.43" x2="130.21" y2="165.13"/>
+    <line class="cls-10" x1="41.02" y1="35.43" x2="41.02" y2="165.13"/>
+    <rect class="cls-5" x="18.89" y="5.98" width="100.43" height="21.02"/>
+    <rect class="cls-4" x="15.91" width="105.49" height="5.98"/>
+    <circle class="cls-11" cx="27.09" cy="141.51" r="7.74"/>
+    <circle class="cls-6" cx="27.09" cy="141.51" r="3.91"/>
+    <circle class="cls-11" cx="27.09" cy="110.87" r="7.74"/>
+    <circle class="cls-7" cx="27.09" cy="110.87" r="3.91"/>
+    <circle class="cls-12" cx="19.34" cy="76.96" r="7.19"/>
+    <line class="cls-9" x1="21.59" y1="72" x2="18.4" y2="78.98"/>
+    <circle class="cls-2" cx="19.34" cy="76.96" r=".37"/>
+    <circle class="cls-12" cx="19.34" cy="53.98" r="7.19"/>
+    <line class="cls-9" x1="21.59" y1="49.02" x2="18.4" y2="56.01"/>
+    <circle class="cls-2" cx="19.34" cy="53.98" r=".37"/>
+  </g>
+</svg>
