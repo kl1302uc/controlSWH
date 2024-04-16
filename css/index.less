@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 .wrap {
-  height:77vw;
+  height:69vw;
   border: solid 0.3vw deeppink;
   box-sizing: border-box;
   position:relative;
@@ -91,31 +91,26 @@ body {
 }
 /* 水箱 */
 .shuixiang {
-  top: 20vw;
-  right: 29vw;
+  width:18vw;
+  height:26vw;
+  top: 21vw;
+  left:52vw;
   z-index:99;
+  background-image: url("../img/shuixiangkuang.svg");
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size:100% 100%;
 
-  >.shuixiangkuang {
-    width: 20vw;
-    position: absolute;
-    bottom: 0;
-  }
 
-  >.shuixiangdi {
-    width: 20vw;
-
-  }
 
   >.shuiweiWrap {
     position: absolute;
-    width: 80%;
-    left: 2%;
-    right: 0;
-    margin: auto;
-    height: 78%;
+    left:6.5%;
+    right:6%;
+    bottom:1.4%;
+    height: 81%;
     z-index: 99;
-    bottom: 7%;
-    border-radius: 0 0 7% 7%;
+    border-radius: 0 0 6% 6%;
     overflow: hidden;
 
     >.shuiwei {
@@ -129,7 +124,7 @@ body {
   >.detail{
     position:absolute;
     top:30%;
-    left:15%;
+    left:8%;
     font-size:2vw;
     z-index:100;
     color:black;
@@ -138,12 +133,12 @@ body {
   >.dianjiare{
     position:absolute;
     z-index:101;
-    bottom:2.5vw;;
-    left:3vw;;
+    bottom:3%;
+    left:8%;
     width:15vw;
   }
-
 }
+
   .high,.shower{
     top:54vw;
     left:82vw;
@@ -168,8 +163,6 @@ body {
   }
   .shower{
     left:20vw;
-    
-    
   }
   .gaowenbeng{
     animation-play-state:running

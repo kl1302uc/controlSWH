@@ -5,9 +5,9 @@ import { DataFetcher } from './request.js';
 const time = document.querySelector(".time"); //日期时间
 const zhuguandao = document.querySelector(".zhuguandao"); //主管道
 /*自来水管路*/
-const e1 = document.querySelector('.e1');//自来水上水阀
-const banredai = document.querySelector('.banredai');//伴热带
-const t6 = document.querySelector('.t6');//自来水进水水温
+const e1 = document.querySelector('.e1'); //自来水上水阀
+const banredai = document.querySelector('.banredai'); //伴热带
+const t6 = document.querySelector('.t6'); //自来水进水水温
 const zilaishui = document.querySelectorAll('.zilaishui');
 /* 上太阳能管路 */
 const shangbu = document.querySelectorAll('.shangbu'); //上部所有管道
@@ -38,23 +38,23 @@ const e1s = document.querySelector('.e1s'); //用户防水阀1
 
 
 /* 用户循环泵开关 */
-function yonghukaiguan(E1S,E2S,P1S) {
-  e1s.src=E1S?"./img/EL2.svg":"./img/EH2.svg";
-  e2s.src=E2S?"./img/EL2.svg":"./img/EH2.svg";
- // yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
-yonghubengp1s.src=P1S?"./img/EL2.svg":"./img/EH2.svg";
-shangbu[3].start=P1S && shangbu[0].start//----------------------------------执行用户侧进水箱阀门同步
+function yonghukaiguan(E1S, E2S, P1S) {
+  e1s.src = E1S ? "./img/EL2.svg" : "./img/EH2.svg";
+  e2s.src = E2S ? "./img/EL2.svg" : "./img/EH2.svg";
+  // yonghubengp1s.style.animationPlayState = P1S ? "running" : "paused";
+  yonghubengp1s.src = P1S ? "./img/EL2.svg" : "./img/EH2.svg";
+  shangbu[3].start = P1S && shangbu[0].start //----------------------------------执行用户侧进水箱阀门同步
 
-  yonghuPipe[0].start=yonghuPipe[1].start=E2S && shangbu[0].start;//----------判断上太阳能管道是否开起
-  yonghuPipe[2].start=E1S;
-  yonghuPipe[3].start=E1S || yonghuPipe[1].start;
+  yonghuPipe[0].start = yonghuPipe[1].start = E2S && shangbu[0].start; //----------判断上太阳能管道是否开起
+  yonghuPipe[2].start = E1S;
+  yonghuPipe[3].start = E1S || yonghuPipe[1].start;
 }
 
 /*控制上循环泵开关*/
 function shangbukaiguan(valueBool) {
   shangbubeng.style.animationPlayState = valueBool ? "running" : "paused";
   shangbu.forEach((el, index) => {
-    if(index==3) return;//----------------------------------这根执行用户侧进水箱阀门同步不参与这次
+    if (index == 3) return; //----------------------------------这根执行用户侧进水箱阀门同步不参与这次
     el.start = valueBool ? "true" : "false";
   });
 }
@@ -76,9 +76,9 @@ function rebengkaiguan(valueBool) {
 function getData(data) {
   time.innerText = data.DNT; //时间显示
   /*设置自来水进水*/
-  e1.src = data.E1S ? './img/EL2.svg' : './img/EH2.svg';//设置上水阀颜色绿色为开启
-  banredai.src = data.H2S ? './img/banredailv3.svg' : './img/banredaihong3.svg'//设置伴热带
-  t6.innerText = 'T6=' + data.T6 + "℃";//设置自来水进水温度
+  e1.src = data.E1S ? './img/EL2.svg' : './img/EH2.svg'; //设置上水阀颜色绿色为开启
+  banredai.src = data.H2S ? './img/banredailv3.svg' : './img/banredaihong3.svg' //设置伴热带
+  t6.innerText = 'T6=' + data.T6 + "℃"; //设置自来水进水温度
   zilaishui[0].start = zilaishui[1].start = data.E1S;
   /*设置太阳能管道及泵*/
   t1.innerText = 'T1=' + data.T1 + "℃";
@@ -98,12 +98,12 @@ function getData(data) {
   rebengkaiguan(false);
   t7.innerText = 'T7=' + data.T7 + "℃";
   /* 设置用户热水泵及管道 */
- //-----------------------------------------------------------------------------------------------------------
+  //-----------------------------------------------------------------------------------------------------------
   e2.src = data.E2S ? "./img/EL2.svg" : "./img/EH2.svg"
 }
 /* 数据获取回调2 */
-function getBackData(data){
-  yonghukaiguan(data.E1S,data.E2S,data.P1S);
+function getBackData(data) {
+  yonghukaiguan(data.E1S, data.E2S, data.P1S);
 
 }
 /*获取太阳能数据*/
